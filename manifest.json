@@ -4,7 +4,7 @@
   "version": "1.0",
   "manifest_version": 3,
   "action": {
-    "default_popup": "steam_review_popup.html"
+    "default_popup": "popup/steam_review_popup.html"
   },
   "permissions": [
     "activeTab"
