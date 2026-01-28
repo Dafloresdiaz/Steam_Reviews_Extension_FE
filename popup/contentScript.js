@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', async () => {
         const url = new URL(tab.url);
         const parts = url.pathname.split('/');
         game_name = parts[3];
-        return game_name;
+
+        return game_name.replaceAll("_", " ");
     };
 
     async function getSentimentData(gameID) {
