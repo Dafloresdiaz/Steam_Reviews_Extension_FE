@@ -1,7 +1,7 @@
 {
   "name": "Steam Reviews Sentiment Extension",
   "description": "A Chrome extension that summarizes player sentiment on Steam games, showing how players feel based on their reviews.",
-  "version": "1.2",
+  "version": "1.3",
   "manifest_version": 3,
   "action": {
     "default_popup": "popup/steam_review_popup.html"
